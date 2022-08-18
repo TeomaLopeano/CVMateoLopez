@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+header img {
+    display: block;
+    margin: auto;
+    max-height: 300px ;
+}
+
+body {
+    background-image: url("../img/460.png");
+    background-size: contain;
+}
+h1.titulos{
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.titulos{
+    
+    padding: 5px 0;
+    color: #005677;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #C4C4C4;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background-color: #7cbbd4;
+    height: 50px;
+    border-radius: 20px;
+
+}
+
+button:hover{
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.datos {
+    font-style: italic;
+}
+.datos span{
+    font-weight: bold;
+}
+
+.puntos{
+    list-style: none;
+}
+.puntos span{
+    font-weight: bold;
+}
+
+.derecha {
+    margin-left: 80px;
+}
+.derechae {
+    margin-left: 122px;
+}
+
+.footerSobreMi{
+    margin-top: 65px;
+    background-color: #005677;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 25px;
+        text-align: center;
+        color: #FFFFFF;
+
+}
+
+.footerIndex{
+    margin-top: 315px;
+    background-color: #005677;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 25px;
+        text-align: center;
+        color: #FFFFFF;
+}
