@@ -37,7 +37,7 @@ h1.titulos{
 }
 
 button {
-    background-color: #005677;
+    background-color: #C4C4C4;
     border-radius: 20px;
     display: block;
     font-family: 'Roboto Condensed', sans-serif;
@@ -48,13 +48,13 @@ button {
 }
 
 button:hover{
-    background-color: #C4C4C4;
+    background-color: #dadada;
     border-radius: 10px;
     height: 80px;
     width: 110px;
     cursor: pointer;
     font-size: 25px;
-    transition: 0.3s;
+    transition: 0.5s;
     font-weight: bold;
 }
 
@@ -113,3 +113,13 @@ button:hover{
         text-align: center;
         color: #FFFFFF;
 }
+ .fa-brands{
+    color: #FFFFFF;
+ }
+ .fa-brands.fa-square-instagram:hover{
+    color: rgb(177, 77, 90);
+ }
+
+ .fa-brands.fa-linkedin:hover{
+    color: #3788f1;
+ }
